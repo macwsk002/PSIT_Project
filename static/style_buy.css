@@ -1,0 +1,59 @@
+body{
+  background-color: #FEF5E7 ;
+  font-family: 'Maitree', serif;
+}
+
+.box{
+  width: 300px;
+  height: 300px;
+  border: 3px solid #2980B9 ;
+  padding: 0px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.barmain{
+  margin: 0px;
+  padding: 0px;
+  background: floralwhite;
+  position: sticky;
+}
+
+nav{
+  width: 100%;
+  background: #BA4A00;
+  overflow: auto;
+}
+
+.menubar{
+  padding: 0;
+  margin: 0 0 0 150px;
+  list-style-type: none;
+}
+
+li a{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.mac a{ 
+  color: #85C1E9;
+  font: bold;
+  left: 1000px;
+  position: absolute;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: floralwhite;
+}
+
+.logo img{
+  left: 10px;
+  top: -8px;
+  position: absolute;
+}
